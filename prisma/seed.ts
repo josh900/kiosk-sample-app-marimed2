@@ -12,7 +12,7 @@ async function createMedia(url: string, title: string) {
   console.log("Created media:", media);
 }
 
-createMedia('"https://dutchie.com/kiosks/arcanna1"', "Media")
+createMedia('"https://thehouseofgreen.wm.store/"', "Media")
   .catch((error) => {
     console.error(error);
   })

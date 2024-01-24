@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
         
 const Media = ({ mediaUrl }: { mediaUrl: string }) => {        
   const [displayMediaUrl, setDisplayMediaUrl] = useState(false);        
-  const playlistId = 5325;        
+  const playlistId = 10810;        
         
   const handleCardClick = () => {        
     setDisplayMediaUrl(true);        
@@ -42,7 +42,7 @@ const Media = ({ mediaUrl }: { mediaUrl: string }) => {
         }}        
       />        
       <iframe        
-        src="https://dutchie.com/kiosks/arcanna1/"        
+        src="https://thehouseofgreen.wm.store/"        
         width="100%"        
         height="100%"        
         title="Google"        
