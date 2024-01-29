@@ -42,7 +42,7 @@ const Media = ({ mediaUrl }: { mediaUrl: string }) => {
         }}        
       />        
       <iframe        
-        src="https://thehouseofgreen.wm.store/"        
+        src="https://dutchie.com/kiosks/panacea-wellness-rec"        
         width="100%"        
         height="100%"        
         title="Google"        
