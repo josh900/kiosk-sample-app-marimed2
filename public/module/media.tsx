@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
         
 const Media = ({ mediaUrl }: { mediaUrl: string }) => {        
   const [displayMediaUrl, setDisplayMediaUrl] = useState(false);        
-  const playlistId = 10811;        
+  const playlistId = 11383;        
         
   const handleCardClick = () => {        
     setDisplayMediaUrl(true);        
