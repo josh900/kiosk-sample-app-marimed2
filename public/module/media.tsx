@@ -3,7 +3,7 @@ import Box from "@mui/material/Box";
         
 const Media = ({ mediaUrl }: { mediaUrl: string }) => {        
   const [displayMediaUrl, setDisplayMediaUrl] = useState(false);        
-  const playlistId = 11383;        
+  const playlistId = 16585;        
         
   const handleCardClick = () => {        
     setDisplayMediaUrl(true);        
@@ -26,7 +26,7 @@ const Media = ({ mediaUrl }: { mediaUrl: string }) => {
     >        
       <iframe        
         className="firstframe"  
-        src={`https://aws-amplify-signage-player.vercel.app/?playlist_id=${playlistId}&backend_url=https://api-v2.skoopsignage.app`}        
+        src={`https://web-player.skoopsignage.app/?playlist_id=${playlistId}&backend_url=https://api-v2.skoopsignage.app`}        
         width="100%"        
         height="100%"        
         title="Web Player"        
@@ -42,7 +42,7 @@ const Media = ({ mediaUrl }: { mediaUrl: string }) => {
         }}        
       />        
       <iframe        
-        src="https://dutchie.com/kiosks/panacea-wellness-rec"        
+        src="https://getqualityroots.com/quality-roots-berkley/shop/"        
         width="100%"        
         height="100%"        
         title="Google"        
